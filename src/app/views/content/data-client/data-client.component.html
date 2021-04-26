@@ -1,0 +1,56 @@
+<div class="container">
+    <h1>Minha Conta</h1>
+    <div class="row gx-3">
+        <div class="col-4">
+            <div class="list-group">
+                <a href="dataClient" class="list-group-item list-group-item-action bg-danger text-light">
+                    <i class="bi-person fs-6"></i> Dados Pessoais
+                </a>
+
+                <a href="clientContacts" class="list-group-item list-group-item-action">
+                    <i class="bi-mailbox fs-6"></i> Contatos
+                </a>
+
+                <a href="clientAddress" class="list-group-item list-group-item-action">
+                    <i class="bi-house-door fs-6"></i> Endereço
+                </a>
+
+                <a href="clientOrders" class="list-group-item list-group-item-action">
+                    <i class="bi-person fs-6"></i> Pedidos
+                </a>
+
+                <a href="clientFavorites" class="list-group-item list-group-item-action">
+                    <i class="bi-heart fs-6"></i> Favoritos
+                </a>
+
+                <a href="clientChangePassword" class="list-group-item list-group-item-action">
+                    <i class="bi-lock fs-6"></i> Alterar Senha
+                </a>
+
+                <a href="home" class="list-group-item list-group-item-action">
+                    <i class="bi-door-open fs-6"></i> Sair
+                </a>
+            </div>
+        </div>
+        <div class="col-8">
+            <form action="#">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control"id="txtNome" autofocus>
+                    <label for="txtNome">Nome</label> 
+                </div>
+                <div class="form-floating mb-3 col-md-6 col-xl-4">
+                    <input type="text" id="txtCPF" class="form-control">
+                    <label for="txtCPF">CPF</label>
+                </div>
+                <div class="form-floating mb-3 col-md-6 col-xl-4">
+                    <input type="date" id="txtDtNasc" class="form-control">
+                    <label for="txtDtNasc">Data de Nascimento</label>
+                </div>
+
+                <button type="button" class="btn btn-lg btn-danger" onclick="window.location.alert='#'">
+                    Alterar dados pessoais
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

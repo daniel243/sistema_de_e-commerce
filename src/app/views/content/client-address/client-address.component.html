@@ -1,0 +1,63 @@
+<div class="container">
+    <h1>Minha Conta</h1>
+    <div class="row gx-3">
+        <div class="col-4">
+            <div class="list-group">
+                <a href="dataClient" class="list-group-item list-group-item-action">
+                    <i class="bi-person fs-6"></i> Dados Pessoais
+                </a>
+
+                <a href="clientContacts" class="list-group-item list-group-item-action">
+                    <i class="bi-mailbox fs-6"></i> Contatos
+                </a>
+
+                <a href="clientAddress" class="list-group-item list-group-item-action bg-danger text-light">
+                    <i class="bi-house-door fs-6"></i> Endereço
+                </a>
+
+                <a href="clientOrders" class="list-group-item list-group-item-action">
+                    <i class="bi-person fs-6"></i> Pedidos
+                </a>
+
+                <a href="clientFavorites" class="list-group-item list-group-item-action">
+                    <i class="bi-heart fs-6"></i> Favoritos
+                </a>
+
+                <a href="clientChangePassword" class="list-group-item list-group-item-action">
+                    <i class="bi-lock fs-6"></i> Alterar Senha
+                </a>
+
+                <a href="home" class="list-group-item list-group-item-action">
+                    <i class="bi-door-open fs-6"></i> Sair
+                </a>
+            </div>
+        </div>
+        <div class="col-8">
+            <form action="#">
+                <div class="form-floating mb-3 col-md-6 col-lg-4">
+                    <input type="number" class="form-control"id="txtCEP" autofocus>
+                    <label for="txtCEP">CEP</label> 
+                </div>
+                <div class="mb-3 col-md-6 col-lg-8">
+                    <textarea class="form-control text-muted bg-light client-address__textarea" 
+                    disabled>Digite o CEP para burcarmos o endereço.</textarea>
+                </div>
+                <div class="form-floating mb-3 col-md-4">
+                    <input type="number" class="form-control"id="txNumero">
+                    <label for="txNumero">Número</label> 
+                </div>
+                <div class="form-floating mb-3 col-md-8">
+                    <input type="number" class="form-control"id="txtComplemento">
+                    <label for="txtComplemento">Complemento</label> 
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control"id="txtReferencia">
+                    <label for="txtReferencia">Referência</label> 
+                </div>
+                <button type="button" class="btn btn-lg btn-danger" onclick="window.location.alert='#'">
+                    Alterar Endereço
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+/* .product-body {
+    height: 488px;
+} */
+
+.product-img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} 
+
+.product-img__size {
+    height: 224px;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,20 @@
+label:hover .text-dark_title {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+label .text-dark_title {
+    transition: color 0.2s ease;
+}
+
+.btn-check:checked+.btn-outline-danger .text-dark_title,
+.btn-check:active+.btn-outline-danger .text-dark_title,
+.btn-check:hover+.btn-outline-danger .text-dark_title {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}

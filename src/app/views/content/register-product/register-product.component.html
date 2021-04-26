@@ -1,0 +1,46 @@
+<div class="container">
+    <h1>Cadastrar Produto</h1>
+    <div class="row gx-3">
+       
+        <div class="col-12">
+            <form action="#" class="row mb-3">
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="nomeProduto" autofocus>
+                        <label for="loginEmail">Nome do Produto</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="precoProduto">
+                        <label for="precoProduto">Valor</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3">
+                    <input type="file" id="imgProduto" class="form-control">
+                    <div id="imgProduto" class="form-text">
+                        Adicione uma imagem do seu produto o serviço
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <select class="form-select" id="Categoria">
+                        <option value="0" selected>Selecione uma categoria</option>
+                        <option value="1">Produto</option>
+                        <option value="2">Serviço</option>
+                    </select>
+                </div>
+                <div class="col-12 col-md-12">
+                    <div class="form-floating">
+                        <textarea id="descricaoProduto" class="form-control h-100" rows="10"></textarea>
+                        <label for="descricaoProduto">Descrição</label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 mt-3 text-end">
+                    <button type="button" class="btn btn-lg btn-danger" onclick="window.location.href='home'">
+                        Cadastrar Produto
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
